@@ -13,6 +13,9 @@
 		43758C5C1F89D6D600F4DE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43758C5A1F89D6D600F4DE05 /* Main.storyboard */; };
 		43758C5E1F89D6D600F4DE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43758C5D1F89D6D600F4DE05 /* Assets.xcassets */; };
 		43758C611F89D6D600F4DE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43758C5F1F89D6D600F4DE05 /* LaunchScreen.storyboard */; };
+		43D01D581F937EE1009FD7E9 /* TimeMachineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D01D571F937EE1009FD7E9 /* TimeMachineTableViewCell.swift */; };
+		43D01D5A1F9387ED009FD7E9 /* TimeMachineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D01D591F9387ED009FD7E9 /* TimeMachineTableViewController.swift */; };
+		43D01D5C1F938A06009FD7E9 /* TimeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D01D5B1F938A06009FD7E9 /* TimeMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		43758C5D1F89D6D600F4DE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43758C601F89D6D600F4DE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43758C621F89D6D600F4DE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D01D571F937EE1009FD7E9 /* TimeMachineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMachineTableViewCell.swift; sourceTree = "<group>"; };
+		43D01D591F9387ED009FD7E9 /* TimeMachineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMachineTableViewController.swift; sourceTree = "<group>"; };
+		43D01D5B1F938A06009FD7E9 /* TimeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				43758C541F89D6D600F4DE05 /* AppDelegate.swift */,
 				43758C561F89D6D600F4DE05 /* FirstViewController.swift */,
 				43758C581F89D6D600F4DE05 /* SecondViewController.swift */,
+				43D01D591F9387ED009FD7E9 /* TimeMachineTableViewController.swift */,
+				43D01D5B1F938A06009FD7E9 /* TimeMachine.swift */,
 				43758C5A1F89D6D600F4DE05 /* Main.storyboard */,
+				43D01D571F937EE1009FD7E9 /* TimeMachineTableViewCell.swift */,
 				43758C5D1F89D6D600F4DE05 /* Assets.xcassets */,
 				43758C5F1F89D6D600F4DE05 /* LaunchScreen.storyboard */,
 				43758C621F89D6D600F4DE05 /* Info.plist */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D01D581F937EE1009FD7E9 /* TimeMachineTableViewCell.swift in Sources */,
 				43758C591F89D6D600F4DE05 /* SecondViewController.swift in Sources */,
+				43D01D5C1F938A06009FD7E9 /* TimeMachine.swift in Sources */,
 				43758C551F89D6D600F4DE05 /* AppDelegate.swift in Sources */,
+				43D01D5A1F9387ED009FD7E9 /* TimeMachineTableViewController.swift in Sources */,
 				43758C571F89D6D600F4DE05 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
